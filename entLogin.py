@@ -12,7 +12,7 @@ chrome_options.add_argument("--headless")
 
 class entBot():
     def __init__(self, email, pwd):
-        self.browser = webdriver.Chrome(ChromeDriverManager().install())
+        self.browser = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=chrome_options)
         self.email = email
         self.password = pwd
 
