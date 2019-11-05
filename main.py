@@ -1,5 +1,19 @@
 import entLogin
+import clicker
+import proxy
 
-login = entLogin.entBot("*****", "*****")
-login.signIn()
-login.close()
+URL = ''
+CSS = ''
+USERNAME = ''
+PWD = ''
+
+# LOGIN ENT UTC
+# login = entLogin.entBot(USERNAME, PWD)
+# login.signIn()
+
+# CLICKER
+# clicker = clicker.Clicker(URL, CSS)
+# clicker.click()
+
+# Refresh Proxy list
+proxy.get_proxies_hidemy()

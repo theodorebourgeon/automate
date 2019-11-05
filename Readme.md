@@ -1,16 +1,16 @@
 # Try to automate things
 
-Activate virtual env 
+Activate virtual env
 `export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3`
 `source /usr/local/bin/virtualenvwrapper.sh`
 `workon automate`
-Desactivate env 
+Desactivate env
 `deactivate`
 
-Install env 
+Install env
 `pip install -r requirements.txt`
 
-Run 
+Run
 `python main.py`
 
 Save new requirements
